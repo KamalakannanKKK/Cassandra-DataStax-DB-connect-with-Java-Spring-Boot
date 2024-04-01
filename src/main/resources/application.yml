@@ -17,7 +17,7 @@ spring:
         init-query-timeout: 10s
 
 
-
+### Download secure bundle in your cassandra DB and add it to the resources
 datastax.astra:
     secure-connect-bundle: secure-connect-betterreads.zip
 
