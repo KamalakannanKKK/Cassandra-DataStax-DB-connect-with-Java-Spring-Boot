@@ -1,0 +1,30 @@
+datadump.location:
+      author: "C:/Users/kamalakannan.k/Downloads/test-authors.txt"
+      works: "C:/Users/kamalakannan.k/Downloads/test-works.txt"
+spring:
+   main:
+     allow-circular-references: true 
+
+   cassandra:
+      keyspace-name: main
+      username: gFhcfWezNbPmgWqOqGiOFPMU
+      password: M37BqFE3,sn3kTdcrK5YJhmZRZz8dw9-uL4eU01ShE53CnIwaeLT3z_G,-4yW,6+-xNM+uEp_55evgdwIPdrIct.a9JUowlP7b.dRZgWLi18R_Jty7Scg1Mpob937P.3
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+
+
+datastax.astra:
+    secure-connect-bundle: secure-connect-betterreads.zip
+
+
+astra.db:
+    id: 9fe02cc8-7bd7-4f20-924c-4dfdb5cc4a35
+    region: us-east1
+    keyspace: main
+    application.token: AstraCS:gFhcfWezNbPmgWqOqGiOFPMU:ff5490802b08eedcb3494b46c7cb50f0556410622b8616c65a59e3914e05b618
+
