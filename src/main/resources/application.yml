@@ -4,11 +4,11 @@ datadump.location:
 spring:
    main:
      allow-circular-references: true 
-
+#### generate token in Cassendra and put client Id, password and Token in respective places.
    cassandra:
       keyspace-name: main
-      username: gFhcfWezNbPmgWqOqGiOFPMU
-      password: M37BqFE3,sn3kTdcrK5YJhmZRZz8dw9-uL4eU01ShE53CnIwaeLT3z_G,-4yW,6+-xNM+uEp_55evgdwIPdrIct.a9JUowlP7b.dRZgWLi18R_Jty7Scg1Mpob937P.3
+      username:  client Id
+      password:  password
       schema-action: create-if-not-exists
       request:
         timeout: 10s
@@ -23,8 +23,8 @@ datastax.astra:
 
 
 astra.db:
-    id: 9fe02cc8-7bd7-4f20-924c-4dfdb5cc4a35
+    id: put DataBase Id
     region: us-east1
     keyspace: main
-    application.token: AstraCS:gFhcfWezNbPmgWqOqGiOFPMU:ff5490802b08eedcb3494b46c7cb50f0556410622b8616c65a59e3914e05b618
+    application.token: token
 
